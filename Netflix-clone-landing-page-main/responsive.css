@@ -1,0 +1,62 @@
+@media (max-width:800px){
+
+
+    .top h1{
+        font-size: 2rem;
+        
+    
+    }
+    
+    .bottom h3{
+        font-size: 0.8rem;
+        margin: 0px;
+        padding-bottom: 15px;
+    }
+
+
+
+    .info-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    
+        border-bottom: 10px solid #222222;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 50%;
+    }
+
+    .info{
+        text-align: center;
+        text-wrap: wrap;
+        width: 400px;
+    
+    }
+
+    .img-vid img{
+        position: relative;
+        z-index: 1;
+    
+        width: 400px;
+    }
+    
+    .img-vid video{
+        position: absolute;
+        margin-bottom: 10px;
+        width: 370px;
+    }
+
+
+    li{
+        list-style-type: none;
+        
+            display: inline-block;
+            width: 40%; /* Adjust this width as per your layout */
+            margin: 5px;
+            text-align: center;
+            padding: 10px;
+    
+    }
+    
+}
